@@ -1,0 +1,30 @@
+.main-bg-container {
+  background-color: #ffc2a0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.app-container {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app-heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+.todo-items-container {
+  align-self: stretch;
+  list-style-type: none;
+  padding: 0 20px;
+
+  /* border: 1px solid black; */
+}
